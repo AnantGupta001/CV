@@ -1,0 +1,57 @@
+body {
+    background-color:#EAF6F6;
+
+}
+
+hr {
+    border-style:none;
+    border-top-style: dotted;
+    border-width: thick;
+    border-color:rgba(223, 223, 223, 0.685);
+    width:7%;
+
+}
+
+#foundername{
+    color: #66BFBF;
+
+}
+
+#foundername:hover{
+    color: #F48484;
+    font-family: cursive;
+    transition-delay:0.2s ;
+}
+
+.founderdescription{
+    color: rgb(27, 205, 119);
+
+}
+
+.founderdescription:hover{
+    color: #F48484;
+
+}
+
+img{
+    size: 100px;
+    background-color: #B4E4FF;
+    border-radius: 100%;
+
+}
+
+img:hover{
+    background-color: #F48484;
+    transition-delay: 0.2s;
+    
+}
+
+h3{
+    color: #66BFBF;
+
+}
+
+.founderdescription:hover{
+    color:#F48484;
+
+}
