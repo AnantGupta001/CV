@@ -8,8 +8,9 @@ body {
 .navbar ul{
     display: flex;
     justify-content: center;
+    /* position: relative;
+    right: 3%; */
     margin: auto;
-
 }
 
 .navbar ul li{
@@ -33,8 +34,9 @@ body {
     font-family: 'Style Script', cursive;
     font-weight: 700;
     font-size: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
-    line-height: 35%;
+    line-height: 100%;
     letter-spacing: 3px;
+    margin: auto;
     text-align: center;
  
 }
@@ -44,8 +46,8 @@ body {
     display: block;
     font-family: 'Kanit', sans-serif;
     font-size: larger;
-    inline-size: 50%;
-    left: 25%;
+    inline-size: 55%;
+    left: 23%;
     letter-spacing: 1px;
     overflow-wrap: break-word;
     position: relative;
@@ -61,7 +63,6 @@ body {
 }
 
 .leftstar{
-    animation-delay: 2s;
     bottom: 110px;
     left: 13%;
     position: relative;
@@ -99,6 +100,42 @@ hr{
 
 }
 
+.card{
+    text-align: right;
+    background-color: hsla(172, 45%, 75%, 1);
+    border-radius: 50px;
+    color: hsla(171, 11%, 24%, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Style Script', cursive;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    padding: 1.5rem;
+    position: relative;
+    width: 90%;
+
+}
+
+img.inner-card{
+    opacity: 1;
+    max-width: 100%;
+    display: block;
+    box-shadow: none;
+    border-radius: 0;
+    transition: all 0.2s ease-in-out;
+    max-width: inherit;
+    position: relative;
+    border-radius: 50px;
+    z-index: var(50);
+    aspect-ratio: auto 1300/600;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
+}
+
+
 h3{
     color: hsla(160, 52%, 71%, 1);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -112,5 +149,5 @@ h3{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
     padding-right: 3%;
-    
+
 }
