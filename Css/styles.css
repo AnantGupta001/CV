@@ -107,30 +107,34 @@ hr{
 .a-card{
     text-align: right;
     background-color: hsla(172, 45%, 75%, 1);
-    border-radius: 50px;
+    border-radius: 9vh;
     color: hsla(171, 11%, 24%, 1);
     cursor: pointer;
     display: flex;
     flex-direction: column;
     font-family: 'Style Script', cursive;
-    height: 74vh;
+    height: 63vh;
     margin: auto;
     overflow: hidden;
-    padding: 1.5rem;
+    padding: 4rem;
     position: relative;
-    width: 89vw;
+    width: 84vw;
     bottom: 20px;
 
 }
 
-.a-inner-card img{
+.info{
+    position: relative;
+    line-height: 1vh;
+    bottom: 6vh;
+}
+
+.a-inner-card {
     aspect-ratio: auto 1300/600;
     border-radius: 50px;
     box-shadow: none;
-    display: block; 
+    /* display: block;  */
     max-width: inherit; 
-    overflow: clip; 
-    overflow-clip-margin: content-box; 
     opacity: 1;
     position: relative;
     transition: all 0.2s ease-in-out;
