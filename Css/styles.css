@@ -8,14 +8,16 @@ body {
 .navbar ul{
     display: flex;
     justify-content: center;
-    /* position: relative;
-    right: 3%; */
-    margin: auto;
+    position: relative;
+    right: 2%;
+    margin: 0 0 0 0;
+    top: 10px;
+    
 }
 
 .navbar ul li{
     display: flex;
-    padding: 3% 2%;
+    padding: 10px 1.7%;
     
 }
 
@@ -25,11 +27,11 @@ body {
     text-transform: capitalize;
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
-    padding: 5px 10px;
+    padding: 10px 4px;
 
 }
 
-#foundername{
+.foundername{
     color: hsla(160, 52%, 71%, 1);
     font-family: 'Style Script', cursive;
     font-weight: 700;
@@ -38,12 +40,13 @@ body {
     letter-spacing: 3px;
     margin: auto;
     text-align: center;
- 
+    position: relative;
+    bottom: 40px;
+
 }
 
 .founderdescription{
     color: #d4ede4;
-    display: block;
     font-family: 'Kanit', sans-serif;
     font-size: larger;
     inline-size: 55%;
@@ -52,6 +55,7 @@ body {
     overflow-wrap: break-word;
     position: relative;
     text-align: center;
+    bottom: 80px;
 
 }
 
@@ -100,7 +104,7 @@ hr{
 
 }
 
-.card{
+.a-card{
     text-align: right;
     background-color: hsla(172, 45%, 75%, 1);
     border-radius: 50px;
@@ -109,45 +113,197 @@ hr{
     display: flex;
     flex-direction: column;
     font-family: 'Style Script', cursive;
-    height: 500px;
+    height: 410px;
     margin: auto;
     overflow: hidden;
     padding: 1.5rem;
     position: relative;
     width: 90%;
+    bottom: 20px;
 
 }
 
-img.inner-card{
-    opacity: 1;
-    max-width: 100%;
-    display: block;
-    box-shadow: none;
-    border-radius: 0;
-    transition: all 0.2s ease-in-out;
-    max-width: inherit;
-    position: relative;
-    border-radius: 50px;
-    z-index: var(50);
+/* .inner-card{
     aspect-ratio: auto 1300/600;
-    overflow-clip-margin: content-box;
+    border-radius: 50px;
+    box-shadow: none;
+    /* display: block; 
+    /* max-width: inherit; 
+    /* overflow: clip; 
+    /* overflow-clip-margin: content-box; 
+    opacity: 1;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    /* z-index: 0; 
+ 
+} */
+
+.p-card{
+    text-align: right;
+    background-color: hsla(22, 62%, 76%, 1);
+    border-radius: 50px;
+    color: hsla(171, 11%, 24%, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Style Script', cursive;
+    height: 500px;
+    overflow: hidden;
+    padding: 1.5rem;
+    position: relative;
+    left: 3%;
+    width: 52%;
+    top: 180px;
+
+}
+
+/* .inner-card{
+    aspect-ratio: auto 1300/600;
+    border-radius: 50px;
+    box-shadow: none;
+    display: block;
+    max-width: inherit;
     overflow: clip;
-    
+    overflow-clip-margin: content-box;
+    opacity: 1;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    z-index: var(20);
+ 
+} */
+
+.m-card{
+    text-align: right;
+    background-color: hsla(206, 84%, 86%, 1);
+    border-radius: 50px;
+    color: hsla(171, 11%, 24%, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Style Script', cursive;
+    height: 500px;
+    overflow: hidden;
+    padding: 1.5rem;
+    position: relative;
+    left: 63%;
+    width: 30%;
+    bottom: 370px;
+
 }
 
+/* .m-inner-card{
+    aspect-ratio: auto 1300/600; 
+    border-radius: 50px;
+    box-shadow: none;
+    display: block;
+    max-width: inherit;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    opacity: 1;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    z-index: var(0);
+ 
+} */
 
-h3{
+.bottomheading{
     color: hsla(160, 52%, 71%, 1);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Style Script', cursive;
+    font-weight: 700;
+    font-size: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
+    line-height: 100%;
+    letter-spacing: 3px;
+    margin: auto;
     text-align: center;
-    padding-top: 1%;
 
 }
 
-.education{
-    color: hsla(160, 52%, 71%, 1);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    letter-spacing: 2px;
-    padding-right: 3%;
+.bottomdescription{
+    color: #d4ede4;
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    inline-size: 55%;
+    left: 23%;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+    position: relative;
+    text-align: center;
 
+}
+
+.do-card{
+    text-align: right;
+    background-color: hsla(172, 45%, 75%, 1);
+    border-radius: 50px;
+    color: hsla(171, 11%, 24%, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Style Script', cursive;
+    height: 150px;
+    overflow: hidden;
+    padding: 1.5rem;
+    position: relative;
+    left: 3%;
+    width: 52%;
+    bottom: 150px;
+
+}
+
+/* .inner-card{
+    aspect-ratio: auto 1300/600;
+    border-radius: 50px;
+    box-shadow: none;
+    display: block;
+    max-width: inherit;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    opacity: 1;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    z-index: var(20);
+ 
+} */
+
+.da-card{
+    text-align: right;
+    background-color: hsla(172, 45%, 75%, 1);
+    border-radius: 50px;
+    color: hsla(171, 11%, 24%, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Style Script', cursive;
+    height: 150px;
+    overflow: hidden;
+    padding: 1.5rem;
+    position: relative;
+    left: 63%;
+    width: 30%;
+    bottom: 350px;
+
+}
+
+/* .inner-card{
+    aspect-ratio: auto 1300/600;
+    border-radius: 50px;
+    box-shadow: none;
+    display: block;
+    max-width: inherit;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    opacity: 1;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    z-index: var(20);
+ 
+} */
+
+.bottom{
+    position: relative;
+    bottom: 210px;
+}
+
+.fotter{
+    position: relative;
 }
