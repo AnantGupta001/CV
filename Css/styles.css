@@ -105,9 +105,9 @@ hr{
 }
 
 .a-card{
-    text-align: right;
     background-color: hsla(172, 45%, 75%, 1);
     border-radius: 9vh;
+    bottom: 20px;
     color: hsla(171, 11%, 24%, 1);
     cursor: pointer;
     display: flex;
@@ -118,12 +118,12 @@ hr{
     overflow: hidden;
     padding: 4rem;
     position: relative;
+    text-align: right;
     width: 84vw;
-    bottom: 20px;
 
 }
 
-.info{
+.a-info{
     position: relative;
     line-height: 1vh;
     bottom: 6vh;
@@ -143,7 +143,6 @@ hr{
 } 
 
 .p-card{
-    text-align: right;
     background-color: hsla(22, 62%, 76%, 1);
     border-radius: 50px;
     color: hsla(171, 11%, 24%, 1);
@@ -151,13 +150,14 @@ hr{
     display: flex;
     flex-direction: column;
     font-family: 'Style Script', cursive;
-    height: 500px;
+    height: 73vh;
     overflow: hidden;
-    padding: 1.5rem;
+    padding: 4rem;
     position: relative;
-    left: 3%;
-    width: 52vw;
-    top: 180px;
+    left: 2.5vw;
+    text-align: right;
+    top: 20vh;
+    width: 46vw;
 
 }
 
@@ -176,6 +176,12 @@ hr{
  
 } */
 
+.p-info{
+    position: relative;
+    line-height: 1vh;
+    bottom: 6vh;
+}
+
 .m-card{
     text-align: right;
     background-color: hsla(206, 84%, 86%, 1);
@@ -185,13 +191,13 @@ hr{
     display: flex;
     flex-direction: column;
     font-family: 'Style Script', cursive;
-    height: 500px;
+    height: 73vh;
     overflow: hidden;
-    padding: 1.5rem;
+    padding: 4rem;
     position: relative;
     left: 63%;
-    width: 30vw;
-    bottom: 370px;
+    width: 24vw;
+    bottom: 72vh; 
 
 }
 
@@ -210,15 +216,22 @@ hr{
  
 } */
 
+.m-info{
+    position: relative;
+    line-height: 1vh;
+    bottom: 6vh;
+}
+
 .bottomheading{
     color: hsla(160, 52%, 71%, 1);
     font-family: 'Style Script', cursive;
     font-weight: 700;
     font-size: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
     line-height: 100%;
-    letter-spacing: 3px;
+    letter-spacing: 0.5vw;
     margin: auto;
     text-align: center;
+    padding-bottom: 8vh;
 
 }
 
@@ -236,21 +249,21 @@ hr{
 }
 
 .do-card{
-    text-align: right;
-    background-color: hsla(172, 45%, 75%, 1);
+    text-align: right; 
+    background-color: hsla(0, 0%, 100%, 1);
     border-radius: 50px;
     color: hsla(171, 11%, 24%, 1);
     cursor: pointer;
     display: flex;
     flex-direction: column;
     font-family: 'Style Script', cursive;
-    height: 150px;
+    height: 500px;
     overflow: hidden;
-    padding: 1.5rem;
-    position: relative;
+    padding: 4rem;
+    position: relative; 
     left: 3%;
-    width: 52vw;
-    bottom: 150px;
+    width: 46vw;
+    bottom: 44vh; 
 
 }
 
@@ -268,23 +281,29 @@ hr{
     z-index: var(20);
  
 } */
+
+.do-info{
+    position: relative;
+    line-height: 1vh;
+    bottom: 6vh;
+}
 
 .da-card{
     text-align: right;
-    background-color: hsla(172, 45%, 75%, 1);
+    background-color: hsla(0, 0%, 0%, 1);
     border-radius: 50px;
-    color: hsla(171, 11%, 24%, 1);
+    color: hsla(0, 0%, 100%, 1);
     cursor: pointer;
     display: flex;
     flex-direction: column;
     font-family: 'Style Script', cursive;
-    height: 150px;
+    height: 500px;
     overflow: hidden;
-    padding: 1.5rem;
+    padding: 4rem;
     position: relative;
     left: 63%;
-    width: 30vw;
-    bottom: 350px;
+    width: 24vw;
+    bottom: 137vh;
 
 }
 
@@ -303,11 +322,13 @@ hr{
  
 } */
 
-.bottom{
+.da-info{
     position: relative;
-    bottom: 210px;
+    line-height: 1vh;
+    bottom: 6vh;
 }
 
-.fotter{
+.bottom{
     position: relative;
+    bottom: 52vh;
 }
